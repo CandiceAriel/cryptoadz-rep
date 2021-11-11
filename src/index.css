@@ -1,8 +1,12 @@
+@font-face {
+  font-family: 'Superscratchy';
+  src: local('Superscratchy'),
+       url(./assets/fonts/Superscratchy.ttf) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Superscratchy;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -16,8 +20,13 @@ code {
     monospace;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: "Superscratchy"!important;
+h1, h2, h3, h4, h5, h6, i{
+  font-family: Superscratchy;
+  color: rgb(216, 226, 239);
+}
+
+h1{
+  font-size: 48px;
 }
 
 .img-container{
@@ -89,8 +98,20 @@ h1, h2, h3, h4, h5, h6{
   width: 20%;
   /* align-items: center; */
   left: 38%;
-  top: 77%;
+  top: 82%;
   position: absolute;
+}
+
+.price span{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.price span i{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .footer-container{
