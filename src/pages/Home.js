@@ -47,40 +47,40 @@ function Home() {
                         Made with love,
                     </h1>
                 </div>
-                <div className='member'>
-                    <div className='col-md-1 member-img-box'>
+                <div className='member d-flex align-items-center justify-content-center'>
+                    <div className='member-img-box'>
                         <img src='/images/bn.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>BN</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className='member-img-box'>
                         <img src='/images/west.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>West</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className='member-img-box'>
                         <img src='/images/chanzero.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>Chanzero</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className='member-img-box'>
                         <img src='/images/dinfo.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>Dinfo</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className='member-img-box'>
                         <img src='/images/emmy.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>Emmy</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className='member-img-box'>
                         <img src='/images/heeeee.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>heeeee</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className='member-img-box'>
                         <img src='/images/motivate.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>Motivateme</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className='member-img-box'>
                         <img src='/images/sum1.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>sum1</h5>
                     </div>
-                    <div className='col-md-1 member-img-box'>
+                    <div className=' member-img-box'>
                         <img src='/images/temp_gremp.png' className='member-img' alt='401'/>
                         <h5 className='text-center'>gremplin</h5>
                     </div>
