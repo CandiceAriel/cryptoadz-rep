@@ -6,7 +6,7 @@ function Home() {
             <div className='container-fluid '>
                 <img src='/images/cryptoadz-logo.png' className='img-logo' alt="logo" />
                 <div className='price'>
-                    <span><i className="fab fa-ethereum fa-3x"></i><h3>.069 each</h3></span>
+                    <span><i className="fab fa-ethereum fa-2x"></i><h3>.069 each</h3></span>
                     <h1>/6969</h1>
                 </div>
             </div>
