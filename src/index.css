@@ -45,7 +45,7 @@ h1{
 }
 
 .faq,
-.about{
+.gremplin{
   padding: 3rem 0;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,7 @@ h1{
 }
 
 .faq p,
-.about p{
+.gremplin p{
   font-size: 20px;
   color: rgb(216, 226, 239);
   text-align: center;
@@ -72,24 +72,36 @@ h1{
   padding: 20px;
 }
 
-.faq-img{
+.gremplin-img,
+.member-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 
+.member-img-box{
+  width: 120px;
+  height: 120px;
+}
+
 .about-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
 
-.member-img{
+.members{
+  padding-top: 50px;
+}
+
+.member{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .price{
@@ -98,7 +110,7 @@ h1{
   width: 20%;
   /* align-items: center; */
   left: 38%;
-  top: 82%;
+  top: 85%;
   position: absolute;
 }
 
@@ -109,21 +121,31 @@ h1{
 }
 
 .price span i{
-  margin-top: 20px;
-  margin-bottom: 10px;
   margin-right: 10px;
 }
 
 .footer-container{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  border-top: solid 1px white;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .footer-container div{
   padding: 0px;
 }
 
-.footer-container .col-md-1{
-  text-align: center;
+.footer-container .col-md-2{
+  text-align: right;
+  margin-right: 10px;
+}
+
+.footer-container .col-md-9{
+  text-align: left;
+  vertical-align: middle;
+}
+
+.footer-container .col-md-9 p{
+  line-height: 24px;
 }
