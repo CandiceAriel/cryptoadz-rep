@@ -3,11 +3,106 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #9da9bb;
+  text-align: left;
+  background-color: #061325;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Superscratchy"!important;
+}
+
+.img-container{
+  width: 30%;
+  padding: 0px 15px;
+}
+
+.text-container{
+  width: 45%;
+}
+
+.img-logo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.faq,
+.about{
+  padding: 3rem 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.faq p,
+.about p{
+  font-size: 20px;
+  color: rgb(216, 226, 239);
+  text-align: center;
+}
+
+.gridImage{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.imgBox{
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+}
+
+.faq-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.price{
+  text-align: center;
+  z-index: 10;
+  width: 20%;
+  /* align-items: center; */
+  left: 38%;
+  top: 77%;
+  position: absolute;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-container div{
+  padding: 0px;
+}
+
+.footer-container .col-md-1{
+  text-align: center;
 }
